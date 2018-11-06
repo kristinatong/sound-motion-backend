@@ -1,0 +1,2 @@
+class Sprite < ApplicationRecord
+end
