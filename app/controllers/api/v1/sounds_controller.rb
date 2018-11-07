@@ -10,10 +10,12 @@ class Api::V1::SoundsController < ApplicationController
   def create
     @sound = Sound.create(sound_params)
     @sound.file.attach(sound_params[:file])
-    render json: {
-      name: @sound.name,
-      url: url_for(@sound.file)
-    }
+    # render json: {
+    #   name: @sound.name,
+    #   url: url_for(@sound.file)
+    # }
+    @sounds = Sound.all
+    render json: @sounds
   end
 
   def show
