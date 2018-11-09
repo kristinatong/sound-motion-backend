@@ -8,6 +8,7 @@ class Api::V1::SoundsController < ApplicationController
   end
 
   def create
+    debugger
     @sound = Sound.create(sound_params)
     @sound.file.attach(sound_params[:file])
     # render json: {
@@ -29,7 +30,7 @@ class Api::V1::SoundsController < ApplicationController
   private
 
   def sound_params
-    params.permit(:name, :file)
+    params.permit(:name, :file, :sound_type)
   end
 
   def set_storage_url
