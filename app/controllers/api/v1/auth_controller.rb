@@ -2,7 +2,6 @@ class Api::V1::AuthController < ApplicationController
   skip_before_action :authorized, only: [:create]
 
   def create # POST /api/v1/login
-    byebug
     @user = User.find_by(email: user_login_params[:email])
     # @user.authenticate('password')
     if @user && @user.authenticate(user_login_params[:password])
