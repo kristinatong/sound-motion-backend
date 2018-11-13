@@ -1,3 +1,3 @@
 class SoundSerializer < ActiveModel::Serializer
-  attributes :id, :name
+  attributes :id, :name, :sound_type
 end
