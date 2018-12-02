@@ -1,25 +1,45 @@
-# README
+# Wavey
+> Ruby on Rails API backend for Wavey, a music production app that uses motions to play sounds.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Frontend Ruby on Rails API repo: https://github.com/kristinatong/wavey-frontend
 
-Things you may want to cover:
+## Installation
 
-* Ruby version
+OS X & Linux:
 
-* System dependencies
+```sh
+bundle install
+```
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
+## Usage example
 
 
-* ...
+
+## Development setup
+
+The Wavey API is built using postgreSQL. Please install postgreSQL on your computer before attempting to load the API on your local server. 
+
+```sh
+rails db:create
+rails db:migrate
+rails s
+```
+
+## Release History
+
+* 0.1.0
+    * First official release
+
+## Meta
+
+Kristina Tong – kristina.tong@gmail.com
+
+[https://github.com/kristinatong](https://github.com/kristinatong)
+
+## Contributing
+
+1. Fork it (<https://github.com/kristinatong/wavey-frontend/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
