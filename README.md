@@ -1,7 +1,7 @@
 # Wavey
 > Ruby on Rails API backend for Wavey, a music production app that uses motions to play sounds.
 
-Frontend Ruby on Rails API repo: https://github.com/kristinatong/wavey-frontend
+Frontend Javascript & React app repo: https://github.com/kristinatong/wavey-frontend
 
 ## Installation
 
