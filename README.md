@@ -56,3 +56,7 @@ The front-end repo can be found here:
 ## Authors
 
 * **Kristina Tong** - [kristinatong](https://github.com/kristinatong)
+
+## Acknowledgments
+
+* [diff-cam-engine](https://github.com/lonekorean/diff-cam-engine) - Core engine for building motion detection web apps
