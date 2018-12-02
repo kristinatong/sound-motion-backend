@@ -9,6 +9,10 @@ You'll need to install:
 
 * PostgreSQL
 
+The front-end repo can be found here:
+
+* [Wavey Frontend](https://github.com/kristinatong/wavey-frontend)
+
 ### Installing
 
 * Navigate to the `backend` folder and run:
@@ -38,7 +42,7 @@ You'll need to install:
 
 ## Contributing
 
-1. Fork it (<https://github.com/kristinatong/wavey-frontend/fork>)
+1. Fork it (<https://github.com/kristinatong/wavey-backend/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
 3. Commit your changes (`git commit -am 'Add some fooBar'`)
 4. Push to the branch (`git push origin feature/fooBar`)
