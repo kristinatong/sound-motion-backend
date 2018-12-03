@@ -15,6 +15,13 @@ class Api::V1::SoundsController < ApplicationController
     #   url: url_for(@sound.file)
     # }
     @sounds = Sound.all
+
+    # if @sound
+    #   # render json: { user: UserSerializer.new(@user), jwt: @token }, status: :accepted
+    #   render json: @sounds
+    # else
+    #   render json: { message: 'We are unable to upload your sound' }, status: 400
+    # end
     render json: @sounds
   end
 
@@ -29,7 +36,7 @@ class Api::V1::SoundsController < ApplicationController
   private
 
   def sound_params
-    params.permit(:name, :file)
+    params.permit(:name, :file, :sound_type, :image_url)
   end
 
   def set_storage_url
