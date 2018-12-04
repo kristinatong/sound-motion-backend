@@ -1,6 +1,11 @@
 # Wavey
 Ruby on Rails API backend for Wavey, a music production app that uses motions to play sounds.
 
+<p align="center">
+  <img width="850" height="522" src="https://github.com/kristinatong/wavey-backend/blob/master/public/demos/wavey2.gif"><br>
+  <a href="https://vimeo.com/304307423"><b>Demo Video</b></a>
+</p>
+
 ## Getting Started
 
 ### Prerequisites
